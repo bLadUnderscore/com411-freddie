@@ -1,4 +1,6 @@
 import time
+import tui
+
 
 def fpage():
     file = open("files/disneyland_reviews.csv")
@@ -15,7 +17,6 @@ def fpage():
     file.close()
     print("There are", row_count, "reviews available")
 
-tui.menu()
-
 
 fpage()
+tui.menu()
