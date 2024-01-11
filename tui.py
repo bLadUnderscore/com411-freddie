@@ -1,4 +1,6 @@
 import process
+
+# Main def for first main menu
 def menu():
     print("Please enter the letter which corresponds with your desired menu choice:")
     print("     [A] View Data")
@@ -34,12 +36,12 @@ def viewdata():
         if enter == "C":
             PandY()
         if enter == "D":
-            #TBD
+            print("test")
 
 def parktype():
     print("What park would you like to see the reviews for?")
     enter=input()
-    process.parkR(enter)
+    process.parkr(enter)
 
 def visualise():
     print("Please enter one of the following options:")
